@@ -1,8 +1,19 @@
-Anna Symanovich 
+### **Anna Symanovich** 
+*Junior Frontend Developer*
 
-Junior Frontend Developer
+>**Contact information:** 
+Phone: +375293620970  
+E-mail: an.symanovich@gmail.com   
+Telegram: @ohhann   
+[LinkedIn](https://www.linkedin.com/in/ansymanovich/) [GitHub](https://github.com/annsmnv)  
 
-Contact information:
-Phone: +375293620970
-E-mail: an.symanovich@gmail.com
-Telegram: @ohhann
+**Education:**  
+*School of Business and Management of Technology of Belarusian State University*  
+Bachelor's degree, Marketing
+
+*RS School*   
+"JavaScript/Front-end. Stage 0" (in progress) 
+
+**Languages:**  
+*English* - Upper-Intermediate  
+*Russian* - Native
