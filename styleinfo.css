@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Helvetica";
+     src: url("assets/fonts/helvetica_regular.otf");
+}
+  
+@font-face {
+    font-family: "New Bodoni";
+     src: url("assets/fonts/newbodoni-italic.ttf");
+}
+  
+body {
+    font-family: "Helvetica";
+    color:  #F2F2F2; 
+    background: radial-gradient(72.55% 72.55% at -4.74% 27.45%, #F87D36 0%, #313131 100%);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+  
+.nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 50px;
+    font-family: "New Bodoni";
+    color: #F2F2F2; 
+}
+
+.block-container {
+    margin-left: 20rem; 
+    margin-right: 20rem;
+    margin-bottom: 2rem;
+    padding: 0px 30px 35px 30px;
+    border: 2px #F2F2F2 solid;
+}
+
+h2 {
+    padding: 0px 30px;
+    font-size: 72px;
+    font-weight: 200;
+}
+
+ul {
+    list-style: none;
+    padding: 0px 30px;
+    font-size: 21px;
+}
+

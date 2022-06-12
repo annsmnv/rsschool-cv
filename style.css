@@ -1,1 +1,153 @@
-парапам
+@font-face {
+  font-family: "Helvetica";
+   src: url("assets/fonts/helvetica_regular.otf");
+}
+
+@font-face {
+  font-family: "Times New Roman";
+   src: url("assets/fonts/Times\ New\ Roman.ttf");
+}
+
+@font-face {
+  font-family: "New Bodoni";
+   src: url("assets/fonts/newbodoni-italic.ttf");
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: #313131;
+}
+
+h1 {
+  font-size: 102px;
+  font-weight: 200;
+  margin: 0.3em;
+  line-height: 0.8em;
+}
+
+h1 .name {
+ font-family: "New Bodoni";
+ font-weight: 300;
+ font-size: 115px;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 102px;
+  font-weight: 200;
+  margin: 0.3em;
+  line-height: 0.8em;
+}
+
+.summary {
+  font-size: 30px;
+  margin: 1.1em;
+}
+
+.info {
+  font-size: 30px;
+  margin: 1.1em 1.1em 0em 1.1em;
+}
+
+.projects-info {
+  font-size: 30px;
+  margin: 0em 1.1em 1.1em 1.1em;
+}
+
+.profession {
+  font-family: "New Bodoni";
+  font-size: 34px;
+  color: #FF9142;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+background: radial-gradient(83.99% 56.75% at 112.81% 41.02%, #F87D36 0%, #FF9142 13.44%, #313131 80.19%);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.block-container {
+  margin-left: 20rem; 
+  margin-right: 20rem;
+  margin-bottom: 2rem;
+  padding: 10px;
+  background: #F2F2F2;
+  backdrop-filter: blur(70px);
+  border-radius: 10px;
+}
+
+
+.flex-item {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 2em;
+  border-radius: 42px;
+}
+
+.nav ul{
+  padding: 0em;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  position: relative;
+  padding: 0 30px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 50px;
+  font-family: "New Bodoni";
+  color: #F2F2F2; 
+}
+
+.here {
+  text-decoration: none;
+  font-family: "New Bodoni";
+  font-size: 34px;
+  color: #FF9142;
+}
+
+.contacts-container {
+  margin-left: 20rem; 
+  margin-right: 20rem;
+  margin-bottom: 2rem;
+  padding: 10px;
+  background: linear-gradient(109.91deg, #F87D36 35.48%, #FFDDC5 113.2%);
+  backdrop-filter: blur(70px);
+  border-radius: 10px;
+  color: #F2F2F2;
+}
+
+.contacts-list {
+  list-style: none;
+  padding: 0.1em;
+  margin: 1.1em 0em;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: #F2F2F2;
+  width: 50%;
+}
