@@ -101,7 +101,7 @@ background: radial-gradient(83.99% 56.75% at 112.81% 41.02%, #F87D36 0%, #FF9142
 
 .flex-item img {
   height: auto;
-  width: 403px;
+  width: 100%;
   padding: 15px 0px 15px 5px;
 }
 
