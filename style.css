@@ -4,11 +4,6 @@
 }
 
 @font-face {
-  font-family: "Times New Roman";
-   src: url("assets/fonts/Times\ New\ Roman.ttf");
-}
-
-@font-face {
   font-family: "New Bodoni";
    src: url("assets/fonts/newbodoni-italic.ttf");
 }
@@ -151,3 +146,27 @@ background: radial-gradient(83.99% 56.75% at 112.81% 41.02%, #F87D36 0%, #FF9142
   color: #F2F2F2;
   width: 50%;
 }
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-item {
+  position: relative;
+  padding: 0 30px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 50px;
+  font-family: Helvetica, sans-serif;
+  color: white; 
+}
+
+.footer-link img {
+  height: 60px;
+  width: auto;
+}
+
