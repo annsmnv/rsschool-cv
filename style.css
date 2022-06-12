@@ -14,16 +14,16 @@ body {
 }
 
 h1 {
-  font-size: 102px;
+  font-size: 80px;
   font-weight: 200;
-  margin: 0.3em;
+  margin: 30px;
   line-height: 0.8em;
 }
 
 h1 .name {
  font-family: "New Bodoni";
  font-weight: 300;
- font-size: 115px;
+ font-size: 85px;
 }
 
 h2 {
@@ -78,15 +78,41 @@ background: radial-gradient(83.99% 56.75% at 112.81% 41.02%, #F87D36 0%, #FF9142
   border-radius: 10px;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 20rem; 
+  margin-right: 20rem;
+  margin-bottom: 2rem;
+  padding: 10px;
+  background: #F2F2F2;
+  backdrop-filter: blur(70px);
+  border-radius: 10px;
+}
 
 .flex-item {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.flex-item img {
+  height: auto;
+  width: 403px;
+  padding: 15px 0px 15px 5px;
+}
+
+.block-item {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
 }
 
-.flex-item img {
+.block-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
