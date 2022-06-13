@@ -100,7 +100,7 @@ h1 .name {
   margin-left: 20rem; 
   margin-right: 20rem;
   margin-bottom: 2rem;
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 3rem;
   background: #F2F2F2;
   backdrop-filter: blur(70px);
   border-radius: 10px;
@@ -157,11 +157,16 @@ tr:hover td {
   background-color: #FF9142;
 }
 
+.skills-list {
+  list-style: none;
+  padding: 0%;
+}
+
 .contacts-container {
   margin-left: 20rem; 
   margin-right: 20rem;
   margin-bottom: 2rem;
-  padding: 10px;
+  padding: 1.5rem 3rem;
   background: linear-gradient(109.91deg, #F87D36 35.48%, #FFDDC5 113.2%);
   backdrop-filter: blur(70px);
   border-radius: 10px;
