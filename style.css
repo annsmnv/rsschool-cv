@@ -8,74 +8,37 @@
    src: url("assets/fonts/newbodoni-italic.ttf");
 }
 
-body {
-  font-family: Helvetica, sans-serif;
-  color: #313131;
-}
-
-h1 {
-  font-size: 80px;
-  font-weight: 200;
-  margin: 30px;
-  line-height: 0.8em;
-}
-
-h1 .name {
- font-family: "New Bodoni";
- font-weight: 300;
- font-size: 85px;
-}
-
-h2 {
-  font-family: Helvetica, sans-serif;
-  font-size: 102px;
-  font-weight: 200;
-  margin: 0.3em;
-  line-height: 0.8em;
-}
-
-.summary {
-  font-size: 30px;
-  margin: 1.1em;
-}
-
-.info {
-  font-size: 30px;
-  margin: 1.1em 1.1em 0em 1.1em;
-}
-
-.projects-info {
-  font-size: 30px;
-  margin: 0em 1.1em 1.1em 1.1em;
-}
-
-.profession {
-  font-family: "New Bodoni";
-  font-size: 34px;
-  color: #FF9142;
-}
-
 html {
   scroll-behavior: smooth; 
 }
 
+.nav ul{
+  padding: 0em;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  position: relative;
+  padding: 0 30px;
+  text-decoration: none;
+  font-size: 100%;
+  font-weight: 300;
+  line-height: 2rem;
+  font-family: "New Bodoni";
+  color: #F2F2F2; 
+}
+
 body {
-background: radial-gradient(83.99% 56.75% at 112.81% 41.02%, #F87D36 0%, #FF9142 13.44%, #313131 80.19%);
-}
-
-
-* {
-  box-sizing: border-box;
-}
-
-.block-container {
-  margin-left: 20rem; 
-  margin-right: 20rem;
-  margin-bottom: 2rem;
-  padding: 10px;
-  background: #F2F2F2;
-  backdrop-filter: blur(70px);
-  border-radius: 10px;
+  font-family: Helvetica, sans-serif;
+  font-size: 155%;
+  color: #313131;
+  background: radial-gradient(83.99% 56.75% at 112.81% 41.02%, #F87D36 0%, #FF9142 13.44%, #313131 80.19%);
 }
 
 .flex-container {
@@ -86,7 +49,7 @@ background: radial-gradient(83.99% 56.75% at 112.81% 41.02%, #F87D36 0%, #FF9142
   margin-left: 20rem; 
   margin-right: 20rem;
   margin-bottom: 2rem;
-  padding: 10px;
+  padding: 1.5rem 2.5rem;
   background: #F2F2F2;
   backdrop-filter: blur(70px);
   border-radius: 10px;
@@ -102,7 +65,45 @@ background: radial-gradient(83.99% 56.75% at 112.81% 41.02%, #F87D36 0%, #FF9142
 .flex-item img {
   height: auto;
   width: 100%;
-  padding: 15px 0px 15px 5px;
+}
+
+h1 {
+  font-size: 322%;
+  font-weight: 200;
+  line-height: 0.8em;
+  margin-top: 0%;
+  margin-bottom: 10%;
+}
+
+h1 .name {
+ font-family: "New Bodoni";
+ font-weight: 300;
+ font-size: 106%;
+ color: #F87D36;
+ padding-bottom: 0%;
+ margin-bottom: 0%;
+}
+
+.summary {
+  font-size: 125%;
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+.profession {
+  font-family: "New Bodoni";
+  font-size: 34px;
+  color:#F87D36;
+}
+
+.block-container {
+  margin-left: 20rem; 
+  margin-right: 20rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem 2.5rem;
+  background: #F2F2F2;
+  backdrop-filter: blur(70px);
+  border-radius: 10px;
 }
 
 .block-item {
@@ -121,33 +122,39 @@ background: radial-gradient(83.99% 56.75% at 112.81% 41.02%, #F87D36 0%, #FF9142
   border-radius: 42px;
 }
 
-.nav ul{
-  padding: 0em;
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 242%;
+  font-weight: 200;
+  line-height: 0.8em;
+  margin-top: 3%;
+  margin-bottom: 0%;
 }
 
-.nav-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
+table {
+  width: 100%;
+  margin: 1.5rem 0rem;
+  border-collapse: collapse;
 }
 
-.nav-link {
-  position: relative;
-  padding: 0 30px;
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: 300;
-  line-height: 50px;
+td {
+  border-bottom: 1px solid #313131;
+  padding: 0.8em 0.5em;
+}
+
+.date {
   font-family: "New Bodoni";
-  color: #F2F2F2; 
 }
 
-.here {
-  text-decoration: none;
+.course-name {
   font-family: "New Bodoni";
-  font-size: 34px;
-  color: #FF9142;
+  color: #5b5b5b;
+  font-size: 80%;
+  margin: 0.2em 0em;
+}
+
+tr:hover td {
+  background-color: #FF9142;
 }
 
 .contacts-container {
