@@ -65,6 +65,7 @@ body {
 .flex-item img {
   height: auto;
   width: 100%;
+  border-radius: 0.5em;
 }
 
 h1 {
@@ -114,12 +115,10 @@ h1 .name {
 }
 
 .block-item img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  padding: 2em;
-  border-radius: 42px;
+ width: 100%;
+ height: auto;
+ margin: 1em 1em 0em 0em;
+ border-radius: 0.5em;
 }
 
 h2 {
@@ -166,7 +165,7 @@ tr:hover td {
   margin-left: 20rem; 
   margin-right: 20rem;
   margin-bottom: 2rem;
-  padding: 1.5rem 3rem;
+  padding: 0.2rem 3rem 1.5rem 3rem;
   background: linear-gradient(109.91deg, #F87D36 35.48%, #FFDDC5 113.2%);
   backdrop-filter: blur(70px);
   border-radius: 10px;
