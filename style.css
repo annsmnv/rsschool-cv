@@ -1,3 +1,43 @@
+@font-face {
+    font-family: 'Aleo-Bold';
+    src: url(assets/fonts/Aleo-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Aleo-BoldItalic';
+    src: url(assets/fonts/Aleo-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: 'Aleo-Italic';
+    src: url(assets/fonts/Aleo-Italic.otf);
+}
+
+@font-face {
+    font-family: 'Aleo-Regular';
+    src: url(assets/fonts/Aleo-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Red Hat Text';
+    src: url(assets/fonts/RedHatText-Medium.ttf);
+}
+
 body {
     display: flex;
+}
+
+
+header {
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+
+button {
+    font-family: 'Red Hat Text';
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
 }
