@@ -5,40 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/images/plane.ico">
 </head>
 <body>
 
     <header>
+    <div class="flex-container-header">
         <div class="logo">
             <img src="assets/images/logo.png" alt="logo">
             <p>Travel Portal</p>
         </div>
+
         <nav>
-            <ul>
-                <li><a href="preview">How It Works</a></li>
-                <li><a href="steps">Plan Your Trip</a></li>
-                <li><a href="destinations">Destinations</a></li>
-                <li><a href="stories">Travel Stories</a></li>
+            <ul class="navigation">
+                <li><a class="nav-link" href="#preview">How It Works</a></li>
+                <li><a class="nav-link" href="#steps">Plan Your Trip</a></li>
+                <li><a class="nav-link" href="#destinations">Destinations</a></li>
+                <li><a class="nav-link" href="#stories">Travel Stories</a></li>
             </ul>
         </nav>
-        <button>Login</button>
+        <button class="login">Login</button>
+    </div>
     </header>
 
     <main>
 
-        <section id="preview">
+        <section class="preview-block" id="preview">
             <h1>Explore the beauty of the World</h1>
-            <p>Receive personalized recommendations for countries, hotels, activities and more</p>
-            <form>
+            <p class="preview">Receive personalized recommendations for countries, hotels, activities and more</p>
+            <form class="preview-form">
                 <input type="text" placeholder="What would you like to do?">
-                <button>Start Planning</button>
+                <button class="preview-button">Start Planning</button>
             </form>
         </section>
 
         <section id="steps">
             <h2>3 STEPS TO THE PERFECT TRIP</h2>
+        <div class="steps-container">
             <div class="step1">
                 <img src="assets/images/step1.png" alt="step 1 png">
                 <p>Tell us what you want to do</p>
@@ -51,6 +56,7 @@
                 <img src="assets/images/step3.png" alt="step 3 png">
                 <p>We will give you recommendations</p>
             </div>
+        </div>
         </section>
 
         <section id="destinations">
@@ -60,6 +66,26 @@
 
         <section id="stories">
             <h2>TRAVEL STORIES</h2>
+            <div class="story1">
+                <img src="assets/images/story1.jpg" alt="story1 img">
+                <h3>10 Photos of Attractive Thailand</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
+            </div>
+            <div class="story2">
+                <img src="assets/images/story2.jpg" alt="story2 img">
+                <h3>Canyonlands National Park, Utah</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
+            </div>
+            <div class="story3">
+                <img src="assets/images/story3.jpg" alt="story3 img">
+                <h3>I left my heart in the Mountains!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
+            </div>
+            <div class="story4">
+                <img src="assets/images/story4.jpg" alt="story4 img">
+                <h3>The Longest journey in my life!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
+            </div>
             <button>See More</button>
         </section>
 

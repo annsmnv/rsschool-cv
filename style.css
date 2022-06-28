@@ -23,14 +23,62 @@
     src: url(assets/fonts/RedHatText-Medium.ttf);
 }
 
-body {
-    display: flex;
+@font-face {
+    font-family: 'Magra';
+    src: url(assets/fonts/Magra-Bold.ttf);
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    background: url(assets/images/preview_bg.jpg) no-repeat;
+    background-size: 100%;
+}
 
 header {
     background: rgba(242, 120, 92, 0.7);
     box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    padding: 24px 120px;
+}
+
+.flex-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    font-family: 'Magra';
+    font-size: 32px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.logo img {
+    width: auto;
+    height: 100%;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Red Hat Text';
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 42px;
 }
 
 button {
@@ -40,4 +88,64 @@ button {
     background: #0D606F;
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
+    padding: 10px 30px;
 }
+
+h1 {
+font-family: 'Aleo-Bold';
+font-weight: 700;
+font-size: 80px;
+color: #FFFFFF;
+}
+
+.preview-block {
+    margin: 0px 480px 0px 120px;
+}
+
+.preview {
+    font-family: 'Aleo-BoldItalic';
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.preview-form {
+background: rgba(255, 255, 255, 0.7);
+border-radius: 16px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 18px;
+gap: 10px;
+}
+
+.preview-button {
+    padding: 13.5px 32.5px;
+}
+
+input {
+    border: none;
+    background: none;
+    font-family: 'Aleo-Italic';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 32px;
+}
+
+::placeholder {color: #F2785C;
+}
+
+h2 {
+    font-family: 'Red Hat Text';
+    font-size: 40px;
+    font-weight: 500;
+    color: #F2785C;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
