@@ -424,7 +424,84 @@ html {
 
 body {
     display: block;
-    max-width: 1440px;
     margin: auto;
-    background-color: aqua;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    color: #0D606F;
+    font-size: 16px;
+    background: url(../img/bg-preview.jpg) no-repeat;
+    background-size: 100%;
 }
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* header start */
+.header {
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    width: 100%;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 34px;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item {
+    margin-right: 42px;
+}
+
+.header_item:last-child {
+    margin-right: 0px;
+}
+
+.header_link {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header_link:hover, .header_link:focus, .header_link:active {
+    opacity: .75;
+}
+
+.button_login {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    text-decoration: none;
+    color: #FFFFFF;}
+
+/*    background-color: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.button_login:hover, .button_login:focus, .button_login:active {
+    background-color: #0D5765;
+} */
+
+/* header end */
+
+/* preview styles start */
+
+/* preview styles start */
