@@ -536,7 +536,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 18px 18px 18px 41px;
-    margin-bottom: 334px;
+    margin-bottom: 339px;
 }
 
 .search_form-field {
@@ -577,3 +577,56 @@ body {
     background: #0D505F;
 }
 /* preview styles end */
+
+
+/* steps styles start */
+.steps_wrap {
+    max-width: 1177px;
+    margin: 0 auto;
+}
+
+.steps_title {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #F2785C;
+    margin-bottom: 46px;
+    padding-left: 283px;
+}
+
+.steps_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 97px;
+}
+
+.step_card2 {
+    padding-left: 70px;
+}
+.step_card-pic {
+    margin-bottom: 32px;
+}
+
+.step-ico1 {
+    padding-left: 73px;
+}
+
+.step-ico2 {
+    padding-left: 61px;
+}
+
+.step-ico3 {
+    padding-left: 109px;
+}
+
+.step_card-info {
+    font-size: 20px;
+    line-height: 24px;
+}
+/* steps styles end */
+
+
+/* destinations styles start */
+/* destinations styles end */
