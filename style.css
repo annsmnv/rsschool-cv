@@ -28,9 +28,15 @@
     src: url(assets/fonts/Magra-Bold.ttf);
 }
 
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
     display: flex;
     flex-direction: column;
+    max-width: 1440px;
+    margin: auto
 }
 
 header {
@@ -186,6 +192,28 @@ h2 {
     align-items: center;
 }
 
+.destinations {
+    padding: 97px 469px 46px 470px;
+    margin: 0px;
+}
+
+.destinations-img {
+    display: flex;
+    overflow: hidden;
+}
+
+.destinations-img img{
+    border-radius: 16px;
+}
+
+.container-img1 {
+    margin-left: -540px;
+}
+
+.container-img2 {
+    margin: 0px 60px;
+}
+
 .stories {
     padding: 80px 553px 40px 554px;
     margin: 0px;
@@ -213,6 +241,7 @@ h2 {
 .stories-content p {
     font-size: 20px;
     font-weight: 400;
+    max-width: 760px;
 }
 
 .story1 {
