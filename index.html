@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Symanovich Anna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/images/favicon2.ico">
+</head>
+
+<body>
+<header>
+    <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">code</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+<div class="flex-container">
+    <section class="flex-item" id="profile">
+        <h1>hello! my name is <span class="name">anna.</span></h1>
+        <p class="summary">i am junior, but talanted &capable <span class="profession">front-end developer</span> with advanced communication &googling skills.</p>
+    </section>  
+    <div class="flex-item" id="photo">
+        <img src="./assets/images/photo.jpg" alt="Photo">
+    </div>
+</div>
+
+<div class="block-container">
+    <section class="block-item" id="education">
+        <h2>education</h2>
+        <table class="education">
+            <tr>
+                <td class="date">2019 - present</td>
+                <td>Belarusian State University, School of Business <p class="course-name">Bachelor's degree, Marketing (part-time)</p></td> 
+            </tr>
+            <tr>
+                <td class="date">2022 - present</td>
+                <td>The Rolling Scopes School <p class="course-name">JavaScript/Front-end. Stage 0</p></td>
+            </tr>
+            <tr>
+                <td class="date">2022 - present</td>
+                <td>FreeCodeCamp <p class="course-name">Responsive Web Design (HTML&CSS)</p></td>
+            </tr>
+        </table>
+    </section>
+</div>
+
+<div class="block-container">
+    <section class="block-item" id="skills">
+        <h2>skills</h2>
+        <ul class="skills-list">
+            <li>JavaScript (in progress)</li>
+            <li>HTML/HTML5, CSS/CSS3</li>
+            <li>Git, GitHub</li>
+            <li>Figma, Photoshop</li>
+            <li>Slack, Confluence, Trello, Notion</li>
+        </ul>
+    </section>
+</div>
+        
+        
+<div class="block-container">
+    <section id="code">
+        <h2>code example</h2>
+            <pre><code>
+function f1() {
+  if(document.all) { return false; }
+}
+function f2(e) {
+  if(document.layers || (document.getElementById &! document.all)) {
+    if(e.which==2 || e.which==3) { return false; }
+    }
+}
+if(document.layers) {
+  document.captureEvents(Event.MOUSEDOWN);
+  document.onmousedown = f1;
+}
+            </code></pre>
+    </section>
+</div>
+        
+<div class="block-container">
+    <section id="languages">
+        <h2>languages</h2>
+        <ul>
+            <li>English – Upper-Intermediate</li>
+            <li>Dutch – Elementary</li>
+            <li>Russian – Native</li>
+        </ul>
+    </section>
+</div>
+
+<div class="block-container">
+    <section class="block-item" id="projects">
+        <h2>projects</h2>
+        <p class="projects-info">i have no commercial experience and below are some tutorial projects. tasks at rolling scopes school were as close as possible to real workers.</p>
+    </section>
+</div>
+
+<div class="block-container">
+    <section class="block-item" id="project1">
+        <h2>my cv</h2>
+        <a href="https://annsmnv.github.io/rsschool-cv/"><img src="./assets/images/project_cv.png" alt="main page cv"></a>
+    </section>
+</div>
+
+<div class="contacts-container">
+    <section id="contacts">
+        <ul class="contacts-list">
+            <li class="contacts-item"><a href="https://www.linkedin.com/in/ansymanovich/" class="contacts-link"><h2>/linkedin</h2></a></li>
+            <li class="contacts-item"><a href="https://t.me/ohhann" class="contacts-link"><h2>/telegram</h2></a></li>
+            <li class="contacts-item"><a href="https://github.com/annsmnv" class="contacts-link"><h2>/github</h2></a></li>
+        </ul>
+    </section>
+</div>
+</main>
+
+<footer>
+    <ul class="footer-list">
+          <li class="footer-item"><a href="https://github.com/annsmnv" class="footer-link"><img src="assets/images/github-logo.png" alt="github logo"></a></li>
+          <li class="footer-item">&copy; 2022</li>
+          <li class="footer-item"><a href="https://rs.school/js/" class="footer-link"><img src="assets/images/background.png" alt="rs school logo"></a></li>
+    </ul>
+</footer>
+</body>
+</html>
